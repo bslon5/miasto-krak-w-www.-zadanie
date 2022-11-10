@@ -1,0 +1,122 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #6495ED;
+  padding: 0px;
+  text-align: center;
+
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  height: 800px; /* only for demonstration, should be removed */
+  padding: 10px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 100px;
+  width: 83%;
+
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  color: white;
+
+</style>
+</head>
+<section>
+  <nav>
+    <ul>
+       <b>Lista
+		    <li><button> <a href="index.krakow_sg.html">STRONA GŁÓWNA</a></li>
+		    <li><button> <a href="ciekawostki.html">CIEKAWOSTKI</a></li>
+        	<li><button> <a href="kontakt.html">ZGŁOSZENIE</a></button></li>
+        	<li><button> <a href="https://www.krakow.pl/start/2708,artykul,kontakt.html"target="_blank">krakow.pl</a></button></li>
+	   </b>
+    </ul>
+  </nav>
+<article>
+<footer>
+	<div class="field-wrapper">
+<footer>
+	 <h2 style="color:blue;"><i>KONTAKT</i>
+</footer>
+		<form
+	action="https://formsubmit.io/send/blazejslon@gmail.com"
+	method="POST">
+		<p class="cf-error">Uzupełnij pole</p>
+		<label for="cf-name">Imię</label>
+		<div class="field">
+		<input type="text" id="cf-name" name="cf-name">
+		</div>
+<div class="field-wrapper">
+	<label for="cf-surname">Nazwisko</label>
+	<div class="field">
+	<input type="text" id="cf-surname" name="cf-surname">
+</div>
+	<div class="field-wrapper">
+	<label for="cf-phone">Telefon</label>
+	<div class="field">
+	<input type="tel" pattern="[0-9]*" id="cf-phone" name="cf-phone">
+	</div>
+	<div class="field-wrapper">
+	<label for="cf-email">E-mail</label>
+	<div class="field">
+	<input type="email" id="cf-email" name="cf-email">
+	<div class="field-submit"></div>
+</div>
+	<p>Podaj swoją płeć:</p>
+	<input type="radio" name="Płeć" value="Kobieta">Kobieta
+	<input type="radio" name="Płeć" value="Mężczyzna">Mężczyzna
+
+<!-- Pole komentarza (o powiększonych rozmiarach oraz z tekstem domyślnym) -->
+<p>Podaj swój komentarz:</p>
+<textarea
+		name="Komentarz"
+		cols="50"
+		rows="10"
+placeholder="Proszę, wpisz tutaj jakiś komentarz">
+</textarea>
+<br><br>
+<!-- Przycisk WYŚLIJ -->
+<input type="submit" value="Wyślij formularz"></
+	button>
+<!-- Przycisk WYCZYŚĆ DANE -->
+<input type="reset" value="Wyczyść dane">
+</div>
+	<P>
+	</P> <h1> Jeśli masz pytania, napisz : <a href="mailto:krakow@gmail.pl" target="_blank" ><button> krakow@gmail.pl </a></button>
+	</footer>
+	  <body background="5.jpg"> </body>
+
+</html>
